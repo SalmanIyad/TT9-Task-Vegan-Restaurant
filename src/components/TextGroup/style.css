@@ -1,0 +1,44 @@
+.TextGroup {
+    color: #FFFCCC;
+    text-align: center;
+    font-size: 45px;
+}
+
+.TextGroup h1 {
+    color: #FFFCCC;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+    margin-bottom: 20px !important;
+}
+
+.TextGroup h3 {
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 50px !important;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .TextGroup h1 {
+        font-size: 40px;
+    }
+
+    .TextGroup h3 {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .TextGroup h1 {
+        font-size: 35px;
+    }
+
+    .TextGroup h3 {
+        font-size: 15px;
+    }
+}

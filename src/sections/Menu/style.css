@@ -1,0 +1,68 @@
+#Menu .container .main-header {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFC;
+    margin-bottom: 50px;
+}
+
+#Menu .container .menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#Menu .container .menu-items .MenuItem {
+    width: 45%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #Menu .container .menu-items .MenuItem div h5 {
+        font-size: 16px !important;
+    }
+
+    #Menu .container .menu-items .MenuItem div h6 {
+        font-size: 14px !important;
+    }
+
+    #Menu .container .menu-items .MenuItem h2 {
+        font-size: 14px !important;
+        margin-right: 0;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #Menu .container {
+        width: 80% !important;
+    }
+
+    #Menu .container .menu-items .MenuItem {
+        width: 100%;
+
+    }
+
+    #Menu .container .menu-items .MenuItem {
+        width: 100%;
+
+    }
+
+    #Menu .container .menu-items .MenuItem img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    #Menu .container .menu-items .MenuItem div h5 {
+        font-size: 14px !important;
+    }
+
+    #Menu .container .menu-items .MenuItem div h6 {
+        font-size: 12px !important;
+    }
+
+    #Menu .container .menu-items .MenuItem h2 {
+        font-size: 13px !important;
+        width: 70px;
+    }
+}

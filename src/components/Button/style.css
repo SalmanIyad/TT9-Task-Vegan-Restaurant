@@ -1,0 +1,29 @@
+.btn {
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    border: 3px solid #FFFCCC;
+    background-color: transparent;
+    padding: 17px 57px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #A08040;
+}
+
+@media screen and (max-width: 1000px) {
+    .btn {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .btn {
+        font-size: 15px;
+        padding: 12px 40px;
+    }
+}

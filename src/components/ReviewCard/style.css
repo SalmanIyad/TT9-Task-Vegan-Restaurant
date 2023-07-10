@@ -1,0 +1,70 @@
+.ReviewCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 50%;
+    gap: 20px;
+    transition: all 0.1s;
+    background: rgba(16, 20, 24, 0.70);
+    padding: 40px 60px;
+}
+
+.ReviewCard:hover {
+    border-radius: 10px;
+    background-color: #ffce6d50;
+}
+
+.ReviewCard .upperPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.ReviewCard .upperPart div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ReviewCard .upperPart div h4 {
+    color: #FFFFFC;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155.3%;
+    letter-spacing: 2.34px;
+    text-transform: capitalize;
+}
+
+.ReviewCard p {
+    color: #FFFFFC;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.08px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .ReviewCard {
+        align-items: center !important;
+        justify-content: center !important; 
+        min-width: 60% !important; 
+        gap: 30px;  
+        padding: 30px;
+    }
+
+    .ReviewCard .upperPart div {
+        align-items: center;
+    }
+
+    .ReviewCard .upperPart {
+        flex-direction: column;
+    }
+
+    .ReviewCard p {
+        margin-bottom: 60px;
+    }
+}

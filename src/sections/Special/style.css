@@ -1,0 +1,41 @@
+#Special {
+    background: rgba(16, 20, 24, 0.70);
+}
+
+#Special .main-header {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFC;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+
+#Special .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+    #Special .cards {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #Special .cards {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #Special .cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .SpecialCard {
+        width: 80% !important;
+    }
+}

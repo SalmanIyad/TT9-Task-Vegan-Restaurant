@@ -1,0 +1,26 @@
+#Blogs .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#Blogs .main-header {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFC;
+    text-transform: capitalize;
+    padding-top: 20px;      
+}
+
+@media screen and (max-width: 1000px) {
+    #Blogs .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #Blogs .container {
+        flex-wrap: wrap;
+    }
+}

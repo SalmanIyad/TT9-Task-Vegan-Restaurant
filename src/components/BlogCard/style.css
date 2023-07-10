@@ -1,0 +1,66 @@
+.BlogCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    transition: all 0.1s;
+    background: rgba(16, 20, 24, 0.70);
+}
+
+.BlogCard:hover {
+    background-color: #ffce6d50;
+}
+
+.BlogCard img {
+    width: 100%;
+}
+
+.BlogCard .textPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.BlogCard .textPart h3 {
+    color: #FFFFFC;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+}
+
+.BlogCard .textPart p {
+    color: #FFFFFC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 155.3%;
+    text-transform: capitalize;
+}
+
+.BlogCard .textPart .readmorebtn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 155.3%;
+    width: 95px;
+    letter-spacing: 1.82px;
+    text-transform: capitalize;
+    border: 0 !important;
+    border-bottom: 1px solid #FFCE6D !important;
+    transition: all 0.1s;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .BlogCard {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .BlogCard {
+        min-width: 70%;
+        flex-direction: column !important;
+    }
+}

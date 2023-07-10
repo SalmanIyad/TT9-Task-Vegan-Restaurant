@@ -1,0 +1,39 @@
+.Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Counter .textGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    gap: 5px;
+}
+.Counter .textGroup h3 {
+    color: #FFCE6D;
+    font-size: 48px;
+    text-align: center;
+    width: max-content;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+
+.Counter .textGroup h5 {
+    color: #FFFFFC;
+    font-size: 18px;
+    text-align: center;
+    width: max-content;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 1000px) {
+    .Counter .textGroup h3 {
+        font-size: 35px;
+    }
+}

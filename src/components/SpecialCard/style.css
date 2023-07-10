@@ -1,0 +1,53 @@
+.SpecialCard {
+    width: 360px;
+    border: 1px dashed #FFCE6D;
+    background: rgba(160, 128, 64, 0.30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    padding: 73px 58px 114px 58px;
+    transition: all 0.1s;
+}
+.SpecialCard:hover {
+    transform: scale(1.05);
+}
+.SpecialCard img {
+    width: 80px;
+    height: 80px;
+}
+
+.SpecialCard h2 {
+    color: #FFFFFC;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.SpecialCard p {
+    color: #FFFFFC;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.82px;
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .SpecialCard {
+        padding: 53px 35px 74px 35px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .SpecialCard h2 {
+        font-size: 21px;
+        margin-bottom: 12px;
+    }
+
+    .SpecialCard p {
+        font-size: 13px;
+    }
+}

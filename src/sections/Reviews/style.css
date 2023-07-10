@@ -1,0 +1,24 @@
+.Reviews .main-header {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFC;
+    text-transform: capitalize;
+}
+
+.Reviews .SubSectionHeader {
+    margin-bottom: 13px !important;
+}
+
+.Reviews .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 850px) {
+    .Reviews .cards {
+        gap: 40px;
+    }
+}

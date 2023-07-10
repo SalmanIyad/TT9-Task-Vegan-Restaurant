@@ -1,0 +1,11 @@
+.Home-BG-img {
+    height: 100%;
+    width: 100%;
+    background: url('../../../public/assets/Home-BG.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.Home-BG-img-gradient {
+    background: linear-gradient(180deg, #10141800 0%, #101418 100%);
+}

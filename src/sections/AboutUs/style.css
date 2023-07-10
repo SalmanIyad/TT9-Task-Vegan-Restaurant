@@ -1,0 +1,80 @@
+#AboutUs .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#AboutUs .container .rightPart {
+    width: 30%;
+}
+
+#AboutUs .container .leftPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+#AboutUs .container .leftPart .TextGroup {
+    margin-right: 20px;
+}
+
+#AboutUs .container .leftPart .TextGroup h1{
+    font-size: 30px; 
+    width: 90% !important;
+    margin-bottom: 50px !important;
+}
+#AboutUs .container .leftPart .TextGroup h3 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.82px;
+    width: 75% !important;
+    text-transform: capitalize;
+}
+#AboutUs .container .leftPart .TextGroup button {
+    font-size: 14px;
+    padding: 12px 37px;
+}
+
+@media screen and (max-width: 1200px) {
+    #AboutUs .container .rightPart {
+        width: 50% !important;
+    }
+
+    #AboutUs .container .rightPart img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #AboutUs .container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    #AboutUs .container .rightPart {
+        width: 70% !important;
+    }
+
+    #AboutUs .container .leftPart {
+        width: 100% !important;
+    }
+
+    #AboutUs .container .leftPart .TextGroup h1 {
+        font-size: 25px;
+        width: 100% !important;
+    }
+
+    #AboutUs .container .leftPart .TextGroup h3 {
+        font-size: 13px;
+        width: 90% !important;
+    }
+
+    #AboutUs .container .leftPart .TextGroup button {
+        border-width: 2px;
+        padding: 10px 28px;
+    }
+}
